@@ -1,0 +1,25 @@
+{
+   "name": "react-native-confidence",
+   "version": "1.0.4",
+   "description": "Provides a way to define configuration based on the build environment",
+   "main": "confidence.js",
+   "scripts": {
+      "build": "echo 'Build complete'"
+   },
+   "author": "SD Taylor",
+   "homepage": "https://sd-taylor.visualstudio.com/SDT-Lending/_git/react_native_confidence",
+   "license": "MIT",
+   "dependencies": {
+      "@types/lodash": "^4.14.116",
+      "lodash": "^4.17.11"
+   },
+   "devDependencies": {
+      "flow-bin": "^0.56.0"
+   },
+   "keywords": [
+      "react-native",
+      "react-native-component",
+      "ios",
+      "android"
+   ]
+}

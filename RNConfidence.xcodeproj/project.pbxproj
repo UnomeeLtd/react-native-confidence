@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF0375D21DED9FCA00244FB7 /* RNConfidence.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0375D11DED9FCA00244FB7 /* RNConfidence.m */; };
+		DF0375D31DED9FCA00244FB7 /* RNConfidence.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF0375D01DED9FCA00244FB7 /* RNConfidence.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF0375CB1DED9FCA00244FB7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DF0375D31DED9FCA00244FB7 /* RNConfidence.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF0375CD1DED9FCA00244FB7 /* libRNConfidence.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNConfidence.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0375D01DED9FCA00244FB7 /* RNConfidence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNConfidence.h; sourceTree = "<group>"; };
+		DF0375D11DED9FCA00244FB7 /* RNConfidence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNConfidence.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF0375CA1DED9FCA00244FB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF0375C41DED9FCA00244FB7 = {
+			isa = PBXGroup;
+			children = (
+				DF0375CF1DED9FCA00244FB7 /* RNConfidence */,
+				DF0375CE1DED9FCA00244FB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF0375CE1DED9FCA00244FB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF0375CD1DED9FCA00244FB7 /* libRNConfidence.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF0375CF1DED9FCA00244FB7 /* RNConfidence */ = {
+			isa = PBXGroup;
+			children = (
+				DF0375D01DED9FCA00244FB7 /* RNConfidence.h */,
+				DF0375D11DED9FCA00244FB7 /* RNConfidence.m */,
+			);
+			path = RNConfidence;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF0375CC1DED9FCA00244FB7 /* RNConfidence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0375D61DED9FCA00244FB7 /* Build configuration list for PBXNativeTarget "RNConfidence" */;
+			buildPhases = (
+				DF0375C91DED9FCA00244FB7 /* Sources */,
+				DF0375CA1DED9FCA00244FB7 /* Frameworks */,
+				DF0375CB1DED9FCA00244FB7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNConfidence;
+			productName = RNConfidence;
+			productReference = DF0375CD1DED9FCA00244FB7 /* libRNConfidence.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF0375C51DED9FCA00244FB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Constructive Coding Ltd.";
+				TargetAttributes = {
+					DF0375CC1DED9FCA00244FB7 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = R2GP6892R7;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DF0375C81DED9FCA00244FB7 /* Build configuration list for PBXProject "RNConfidence" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF0375C41DED9FCA00244FB7;
+			productRefGroup = DF0375CE1DED9FCA00244FB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF0375CC1DED9FCA00244FB7 /* RNConfidence */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF0375C91DED9FCA00244FB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0375D21DED9FCA00244FB7 /* RNConfidence.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DF0375D41DED9FCA00244FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"${SYMROOT}",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF0375D51DED9FCA00244FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"${SYMROOT}",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF0375D71DED9FCA00244FB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"${SYMROOT}",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DF0375D81DED9FCA00244FB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../../react-native/React/**",
+					"${SYMROOT}",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF0375C81DED9FCA00244FB7 /* Build configuration list for PBXProject "RNConfidence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0375D41DED9FCA00244FB7 /* Debug */,
+				DF0375D51DED9FCA00244FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF0375D61DED9FCA00244FB7 /* Build configuration list for PBXNativeTarget "RNConfidence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0375D71DED9FCA00244FB7 /* Debug */,
+				DF0375D81DED9FCA00244FB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF0375C51DED9FCA00244FB7 /* Project object */;
+}

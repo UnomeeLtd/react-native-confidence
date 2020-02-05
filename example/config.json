@@ -1,0 +1,23 @@
+{
+  "$meta": {
+    "description": "This is an example of the metadata"
+  },
+  "apiURL": {
+    "$filter": "env",
+    "production": "THIS IS PRODUCTION",
+    "development": "THIS IS DEVELOPMENT",
+    "$default": "THIS IS DEFAULT"
+  },
+  "random": {
+    "thing": {
+      "that": {
+        "isDeep": {
+          "$filter": "env",
+          "production": "THIS IS DEEP PRODUCTION",
+          "development": "THIS IS DEEP DEVELOPMENT",
+          "$default": "THIS IS DEEP DEFAULT"
+        }
+      }
+    }
+  }
+}

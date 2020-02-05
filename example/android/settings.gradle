@@ -1,0 +1,5 @@
+rootProject.name = 'example'
+
+include ':app'
+include ':react-native-confidence'
+project(':react-native-confidence').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-confidence/android')
